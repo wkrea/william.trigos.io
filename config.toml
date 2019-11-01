@@ -1,6 +1,6 @@
-title = "Andreas' Blog"
+title = "My Blog"
 # Add an trailing slash to ensure that all fonts render correctly.
-baseURL = "//blog.anoff.io/"
+baseURL = "williamtrigos.io" #"//blog.anoff.io/"
 theme = "bilberry-hugo-theme"
 
 enableRobotsTXT = true
@@ -9,10 +9,10 @@ enableRobotsTXT = true
 DefaultContentLanguage = "en"
 
 # Enable / Disable Google Analytics statistics for your site
-googleAnalytics = "UA-93890295-4"
+googleAnalytics = "" #UA-93890295-4
 
 # Enable / Disable comments on the articles via Disqus.
-disqusShortname = "anoff-io"
+disqusShortname = "williamtrigos"
 
 # Enable / Disable open link with a new tab.
 [blackfriday]
@@ -30,20 +30,20 @@ disqusShortname = "anoff-io"
   js_modules = ["fix-adoc.js", "//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js", "init-cookieconsent.js"]
 
   # Description and meta data for the search engines
-  author = "Andreas Offenhaeuser"
-  description = "Andreas' personal blog"
-  keywords = "blog,personal,software,architecture,node,markdown,plantuml,developer"
+  author = "William J. Trigos G."
+  description = "William personal blog"
+  keywords = "blog,personal,software,architecture,Linux,HPC,CUDA,NetCore,C#,Python,node,markdown,plantuml,developer"
 
   # How many articles should be displayed at once?
-  paginate = 14
+  paginate = 20
 
   # Enable / Disable MathJax
   enable_mathjax    = false
 
   # Enable / Disable algolia search
   algolia_search    = false
-  algolia_appId     = "Y2C4RWMPXW"
-  algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
+  algolia_appId     = "" #"Y2C4RWMPXW"
+  algolia_apiKey    = "" #"50ea7f8c41c0ad233926e0be2b769ed1"
   algolia_indexName = "default-content"
     # Set this option to false if you want to search within all articles in all languages at once
     algolia_currentLanguageOnly = true
@@ -57,7 +57,7 @@ disqusShortname = "anoff-io"
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "Adventures of a software engineer/architect"
+    subtitle = "Notebooks" # "Adventures of a software engineer/architect"
 
     # if you want to use gravatar for the header image
     gravatarEMail = ""
@@ -108,14 +108,15 @@ disqusShortname = "anoff-io"
     # social media profile urls for the footer links
     showSocialMedia = true
 
-    twitter    = "//twitter.com/anoff_io"
-    pinterest  = ""
-    instagram  = ""
+    linkedin   = "//linkedin.com/in/williamtrigos" #"//linkedin.com/in/offenhaeuser/"
+    pinterest  = "https://co.pinterest.com/williamtrigos/"
+    instagram  = "//instagram.com/kea_wtg"
     tumblr     = ""
     youtube    = ""
     vimeo      = ""
     github     = "//github.com/anoff"
-    linkedin   = "//linkedin.com/in/offenhaeuser/"
+    twitter    = "//twitter.com/wallastg"  #"//twitter.com/anoff_io"
+
 
     # credits line configuration
     copyrightBy = "by Andreas Offenhaeuser"
