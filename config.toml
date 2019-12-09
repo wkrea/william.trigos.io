@@ -1,6 +1,6 @@
 title = "Andreas Offenhaeuser"
 # Add an trailing slash to ensure that all fonts render correctly.
-baseURL = "//anoff.io/"
+baseURL = https://github.com/wkrea/williamtrigos.io #"//anoff.io/"
 theme = "bilberry-hugo-theme"
 
 enableRobotsTXT = true
