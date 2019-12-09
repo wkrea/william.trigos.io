@@ -1,0 +1,10 @@
+_site
+.sass-cache
+.idea
+resumecard.iml
+/*.iml
+Gemfile.lock
+vendor/
+resources/
+static/cv/cv-anoff.pdf
+.DS_Store
