@@ -3,4 +3,4 @@ locale: en-US
 title: "So Simple Development Site"
 description: "A simple Jekyll theme for words and pictures."
 baseurl: "/" # the subpath of your site, e.g. "/blog"
-url: "//williamtrigos.io/"
+url: https://wkrea.github.io/williamtrigos.io/ # "//williamtrigos.io/"
